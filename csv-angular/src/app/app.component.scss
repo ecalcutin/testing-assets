@@ -1,0 +1,26 @@
+.hero {
+    position: relative;
+    background-color: #673ab7c7;
+    height: 150px;
+
+    .hero__wrapper {
+        position: absolute;
+        margin: 0 auto;
+        max-width: 1200px;
+        top: 75px;
+        left: 0;
+        right: 0;
+
+        .table-wrapper {
+            padding: 24px;
+            background-color: #fff;
+            border-radius: 10px;
+            height: 300px;
+        }
+    }
+}
+
+#toolbar {
+    position: fixed;
+    z-index: 10;
+}
